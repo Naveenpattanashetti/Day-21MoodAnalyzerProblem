@@ -1,10 +1,14 @@
 package com.bridgelabz.MoodAnalyzer;
 
 public class MoodAnalyzer {
+	public MoodAnalyzer() {
+	}
 
-	public static void main(String[] args) {
-		System.out.println("welcome to mood analyzer problem");
-
+	public String MoodAnalyzer(String message) {
+		if (message.contains("Sad"))
+			return "SAD";
+		else
+			return "HAPPY";
 	}
 
 }
